@@ -1,4 +1,4 @@
-# -*- coding: cp1251 -*-
+# -*- coding: utf-8 -*-
 # Указав номер четверти прямоугольной системы координат, показать допустимые значения координат для точек этой четверти
 
 def define_vars_range(number : int):
@@ -16,6 +16,6 @@ def define_vars_range(number : int):
             print('X: [0 : 1]')
             print('Y: [-1 : 0]')
 
-quarter_number = input("Введите номер четверти круга (1, 2, 3, 4): ")
+quarter_number = input("Enter quarter number (1, 2, 3, 4): ")
 
 define_vars_range(int(quarter_number))
