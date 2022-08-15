@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# Сообщить в какой четверти координатной плоскости или на какой оси находится точка с координатами Х и У
 
 def define_position(x, y):
     if (0 < x <= 1) and (0 < y <= 1):
@@ -11,7 +10,7 @@ def define_position(x, y):
     elif (0 < x <= 1) and (-1 <= y < 0):
         return "fourth quarter"
     elif (y == 0):
-        return "ОХ axis"
+        return "OX axis"
     elif (x == 0):
         return "OY axis"
 

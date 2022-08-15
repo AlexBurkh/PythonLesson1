@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Ќайти рассто€ние между двум€ точками пространства
+
 import math
 
 def calc_distance(point_1, point_2):
